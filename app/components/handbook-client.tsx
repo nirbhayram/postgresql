@@ -19,6 +19,7 @@ const TOP_NAV = [
   "Views/Union",
   "Subqueries",
   "Procedures",
+  "EXPLAIN",
 ];
 
 const SIDE_GROUPS = [
@@ -48,12 +49,18 @@ const SIDE_GROUPS = [
     ],
   },
   {
-    title: "Advanced",
+    title: "Advanced Querying",
     items: [
       { idx: 10, label: "JOINs" },
       { idx: 11, label: "Views, Union & Indexes" },
       { idx: 12, label: "Subqueries & GROUP BY" },
       { idx: 13, label: "Procedures & Triggers" },
+    ],
+  },
+  {
+    title: "Performance",
+    items: [
+      { idx: 14, label: "EXPLAIN & Query Planning" },
     ],
   },
 ];
