@@ -20,6 +20,7 @@ const TOP_NAV = [
   "Subqueries",
   "Procedures",
   "EXPLAIN",
+  "Perf Tuning",
 ];
 
 const SIDE_GROUPS = [
@@ -61,6 +62,7 @@ const SIDE_GROUPS = [
     title: "Performance",
     items: [
       { idx: 14, label: "EXPLAIN & Query Planning" },
+      { idx: 15, label: "Performance Tuning" },
     ],
   },
 ];

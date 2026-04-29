@@ -16,6 +16,7 @@ import Section11 from "./sections/section-11-views-union-indexes";
 import Section12 from "./sections/section-12-subqueries-ctes-groupby";
 import Section13 from "./sections/section-13-stored-procedures-triggers";
 import Section14 from "./sections/section-14-explain-query-planning";
+import Section15 from "./sections/section-15-performance-tuning";
 
 export const HANDBOOK_SECTIONS: HandbookSection[] = [
   { id: 0,  key: "sec0",  Component: Section0  },
@@ -33,4 +34,5 @@ export const HANDBOOK_SECTIONS: HandbookSection[] = [
   { id: 12, key: "sec12", Component: Section12 },
   { id: 13, key: "sec13", Component: Section13 },
   { id: 14, key: "sec14", Component: Section14 },
+  { id: 15, key: "sec15", Component: Section15 },
 ];
