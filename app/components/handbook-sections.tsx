@@ -17,6 +17,17 @@ import Section12 from "./sections/section-12-subqueries-ctes-groupby";
 import Section13 from "./sections/section-13-stored-procedures-triggers";
 import Section14 from "./sections/section-14-explain-query-planning";
 import Section15 from "./sections/section-15-performance-tuning";
+import Section16 from "./sections/section-16-locking-concurrency";
+import Section17 from "./sections/section-17-table-partitioning";
+import Section18 from "./sections/section-18-jsonb-operators";
+import Section19 from "./sections/section-19-full-text-search";
+import Section20 from "./sections/section-20-advanced-data-types";
+import Section21 from "./sections/section-21-extensions";
+import Section22 from "./sections/section-22-schemas-permissions";
+import Section23 from "./sections/section-23-error-handling-plpgsql";
+import Section24 from "./sections/section-24-backups-restore";
+import Section25 from "./sections/section-25-replication";
+import Section26 from "./sections/section-26-monitoring-maintenance";
 
 export const HANDBOOK_SECTIONS: HandbookSection[] = [
   { id: 0,  key: "sec0",  Component: Section0  },
@@ -35,4 +46,15 @@ export const HANDBOOK_SECTIONS: HandbookSection[] = [
   { id: 13, key: "sec13", Component: Section13 },
   { id: 14, key: "sec14", Component: Section14 },
   { id: 15, key: "sec15", Component: Section15 },
+  { id: 16, key: "sec16", Component: Section16 },
+  { id: 17, key: "sec17", Component: Section17 },
+  { id: 18, key: "sec18", Component: Section18 },
+  { id: 19, key: "sec19", Component: Section19 },
+  { id: 20, key: "sec20", Component: Section20 },
+  { id: 21, key: "sec21", Component: Section21 },
+  { id: 22, key: "sec22", Component: Section22 },
+  { id: 23, key: "sec23", Component: Section23 },
+  { id: 24, key: "sec24", Component: Section24 },
+  { id: 25, key: "sec25", Component: Section25 },
+  { id: 26, key: "sec26", Component: Section26 },
 ];

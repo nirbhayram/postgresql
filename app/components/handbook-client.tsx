@@ -21,6 +21,17 @@ const TOP_NAV = [
   "Procedures",
   "EXPLAIN",
   "Perf Tuning",
+  "Locking",
+  "Partitioning",
+  "JSONB",
+  "Full-Text",
+  "Adv Types",
+  "Extensions",
+  "Schemas",
+  "PL Errors",
+  "Backups",
+  "Replication",
+  "Monitoring",
 ];
 
 const SIDE_GROUPS = [
@@ -63,6 +74,32 @@ const SIDE_GROUPS = [
     items: [
       { idx: 14, label: "EXPLAIN & Query Planning" },
       { idx: 15, label: "Performance Tuning" },
+      { idx: 16, label: "Locking & Concurrency" },
+      { idx: 17, label: "Table Partitioning" },
+    ],
+  },
+  {
+    title: "Modern Features",
+    items: [
+      { idx: 18, label: "JSONB & JSON Operators" },
+      { idx: 19, label: "Full-Text Search" },
+      { idx: 20, label: "Advanced Data Types" },
+      { idx: 21, label: "Extensions" },
+    ],
+  },
+  {
+    title: "Programmability",
+    items: [
+      { idx: 22, label: "Schemas & Permissions" },
+      { idx: 23, label: "Error Handling (PL/pgSQL)" },
+    ],
+  },
+  {
+    title: "Production & Ops",
+    items: [
+      { idx: 24, label: "Backups & Restore" },
+      { idx: 25, label: "Replication & HA" },
+      { idx: 26, label: "Monitoring & Maintenance" },
     ],
   },
 ];
